@@ -13,7 +13,7 @@ server.use(cors());
 
 // Albums & Player
 server.get('/artists/albums/:artistID', (req, res) => {
-  res.redirect(`http://52.15.129.193${req.url}`);
+  res.redirect(`http://localhost:3001${req.url}`);
 });
 
 // Related Artists
