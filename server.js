@@ -1,4 +1,4 @@
-require('./tests/new_relic/albumlist_newrelic.js');
+require('newrelic');
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
