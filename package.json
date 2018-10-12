@@ -1,11 +1,11 @@
 {
-  "name": "dot-then-proxy",
+  "name": "spottyfi",
   "version": "1.0.0",
-  "description": "Attempt at recreating Spotify Artist page UI",
-  "author": "Wissem Gamra",
+  "description": "SpottyFi Proxy",
+  "author": "Shane Tajima",
   "license": "",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "sudo pm2 start ecosystem.config.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {

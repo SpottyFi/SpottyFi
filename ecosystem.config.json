@@ -1,0 +1,11 @@
+{
+  "apps": {
+    "name": "SpottyFi",
+    "script": "server.js",
+    "instances": 0,
+    "autorestart": true,
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}
